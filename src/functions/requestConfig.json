@@ -1,0 +1,37 @@
+{
+    "address": "https://dummyjson.com/",
+    "users": "users",
+    "filter": "/filter",
+    "filterKey": "key",
+    "filterValue": "value",
+    "select": "select",
+    "sort": "sortBy",
+    "order": "order",
+    "take": "limit",
+    "skip": "skip",
+    "selectColumns": ["firstName", "lastName", "maidenName", "age", "gender", "phone", "address"],
+    "selectModalColumns": ["firstName", "lastName", "maidenName", "age", "height", "weight", "gender", "phone", "email", "address"],
+    "columns": [
+        {"name": "full name", "sortBy": "lastName", "id": 1}, 
+        {"name": "age", "sortBy": "age", "id": 2}, 
+        {"name": "gender", "sortBy": "gender", "id": 3}, 
+        {"name": "phone", "sortBy": "phone", "id": 4}, 
+        {"name": "address", "sortBy": "address", "id": 5}
+    ],
+    "sortOptions": ["firstName", "lastName", "maidenName", "age", "gender", "address"],
+    "filterOptions": [
+        {"value": null, "name": "none"},
+        {"value": "firstName", "name": "first name"}, 
+        {"value": "lastName", "name": "last name"}, 
+        {"value": "maidenName", "name": "maiden name"}, 
+        {"value": "age", "name": "age"}, 
+        {"value": "gender", "name": "gender"}, 
+        {"value": "phone", "name": "phone"}, 
+        {"value": "address.address", "name": "address"}, 
+        {"value": "address.city", "name": "city"}
+    ],
+    "defaultPaginationValues": {
+        "pageNumber": 1,
+        "pageSize": 30
+    }
+}

@@ -111,6 +111,27 @@ input:focus {
   outline: none;
 }
 
+input[type="range"] {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 15px;
+  background: #696969;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: -407px 0 0 400px rgb(143, 48, 0);
+}
+
 .modal{
   padding: 20px;
   border-radius: 5px;

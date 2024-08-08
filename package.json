@@ -2,7 +2,7 @@
   "name": "infotecs-test-js",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://prostiwlsn.github.io/infotecs-test-js",
+  "homepage": "https://prostiwlsn.github.io/infotecs-test-js/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
